@@ -1,6 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
+ * Flappy Bird, the hero of the game.
  * Write a description of class MyWorld here.
  * 
  * @author (your name) 
@@ -16,6 +17,8 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(600, 400, 1);
+        Flappy flappyBird = new Flappy();
+        addObject(flappyBird,300,300);
     }
 }
