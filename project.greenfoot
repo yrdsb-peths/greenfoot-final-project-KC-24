@@ -1,12 +1,15 @@
 #Greenfoot project file
-class.Flappy.image=butterfly.png
-class.MyWorld.image=flappy.jpg
-editor.fx.0.height=739
+class.Flappy.image=bird.png
+class.MyWorld.image=world.png
+dependency1.from=MyWorld
+dependency1.to=Flappy
+dependency1.type=UsesDependency
+editor.fx.0.height=698
 editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=114
+editor.fx.0.x=662
+editor.fx.0.y=79
 height=1096
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false
