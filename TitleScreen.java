@@ -19,11 +19,11 @@ public class TitleScreen extends World
         super(600, 400, 1); 
         StartButton startButton = new StartButton();
         addObject(startButton, 280, 350);
+        showText("Use" + "\"up\""  + "arrow key to move",270,200);
         
     }
     
     public void act(){
-       
     }
    
         

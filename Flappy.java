@@ -31,6 +31,10 @@ public class Flappy extends Actor
        if(Greenfoot.isKeyDown("up")) {
            fall = boost;
         }
+       
+       if(fall > -10 && fall < 10){
+           setRotation(30);
+        }
         
        //stops the game if object reaches the bottom of the world
        if(getY() > getWorld().getHeight()) {
