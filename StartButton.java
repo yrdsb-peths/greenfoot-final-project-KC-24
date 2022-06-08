@@ -14,6 +14,8 @@ public class StartButton extends Actor
      */
     public void act() 
     {
+        setLocation(getX(), getY());
+        
         if(Greenfoot.mouseClicked(this)){
             Greenfoot.setWorld(new MyWorld());
         }

@@ -20,11 +20,18 @@ public class TitleScreen extends World
         StartButton startButton = new StartButton();
         addObject(startButton, 280, 350);
         showText("Use" + "\"up\""  + "arrow key to move",270,200);
-        
+
+        prepare();
     }
-    
+
     public void act(){
     }
-   
-        
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+    }
 }
