@@ -27,6 +27,12 @@ public class Flappy extends Actor
     {
        setLocation(getX(), getY() + fall);
        
+       if(getOneIntersectingObject(Pipe.class) != null){
+           GameOver gameover = new GameOver();
+           addObject(gameover, 300, 300);
+           Greenfoot.stop();
+        }
+       
        //moves up using the up arrow key
        if(Greenfoot.isKeyDown("up")) {
            fall = boost;
